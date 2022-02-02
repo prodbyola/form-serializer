@@ -1,0 +1,6 @@
+{
+    "name": "form-serializer",
+    "version": "1.0.0",
+    "author": "35Genius",
+    "description": "A simple form serializer written in vanillaJS"
+}

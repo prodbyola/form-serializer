@@ -12,3 +12,5 @@ class FormSerializer {
         return this.data
     }
 }
+
+export default FormSerializer
