@@ -1,10 +1,10 @@
 # Project Title
 
-A simple and light-weight form serializer written in vanillaJS.
+V-Form-Serializer
 
 ## Description
 
-Looking for a way to serialie your form data without jquery on any external plugin? This package is written in simple pure Vanilla and you can use it in your project.
+Looking for a way to serialize your form data without jquery on any external plugin? V-Form-Serializer is a simple and light-weight form serializer written in simple pure Vanilla and you can use it in your project.
 
 ## Getting Started
 
@@ -14,7 +14,9 @@ Looking for a way to serialie your form data without jquery on any external plug
 
 ### Installing
 
-* npm i form-serializer.
+```
+npm i v-form-serializer
+```
 
 ### Usage
 
