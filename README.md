@@ -30,7 +30,7 @@ If your your form is...
 
 Then in JS...
 ```js
-    import FormSerializer from "form-serializer"
+    import FormSerializer from "v-form-serializer"
 
     const form = document.getElementById("my-form")
     const fields = ["name", "email"]
