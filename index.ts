@@ -1,10 +1,10 @@
 interface FormConfig {
-    form: HTMLElement
+    form: HTMLFormElement
     fieldNames: Array<string>
 }
 
 class FormSerializer implements FormConfig {
-    form: HTMLElement;
+    form: HTMLFormElement;
     fieldNames: string[];
     data: any;
 
@@ -18,7 +18,8 @@ class FormSerializer implements FormConfig {
 
     build() {
         this.fieldNames.forEach((name: string) => {
-            const el: HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement = this.form.querySelector(`input[name="${name}"]`)
+            console.log(this.form)
+            const el = this.form.getElementsByName(name)[0] as HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement
             this.data[name] = el.value
         })
         return this.data

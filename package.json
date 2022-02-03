@@ -1,6 +1,10 @@
 {
-    "name": "form-serializer",
+    "name": "v-form-serializer",
     "version": "1.0.0",
     "author": "35Genius",
-    "description": "A simple form serializer written in vanillaJS"
+    "description": "A simple form serializer written in vanillaJS",
+    "dependencies": {
+        "ts-loader": "^9.2.6",
+        "typescript": "^4.5.5"
+    }
 }
