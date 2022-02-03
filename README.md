@@ -1,36 +1,16 @@
-# Project Title
-
-<<<<<<< HEAD
-V-Form-Serializer.
-
-## Description
-
-Looking for a way to serialie your form data without jquery on any external plugin? V-Form-Serializer is simple and light-weight form serializer written in vanillaJS and you can use it in your project.
-=======
-V-Form-Serializer
-
-## Description
+# V-Form-Serializer
 
 Looking for a way to serialize your form data without jquery on any external plugin? V-Form-Serializer is a simple and light-weight form serializer written in simple pure Vanilla and you can use it in your project.
->>>>>>> 3e5deddc77ded7534219bb19cdd9f42242964941
 
-## Getting Started
+## Installation
 
-### Dependencies
+Use the node package manager [npm](https://pip.pypa.io/en/stable/) to install.
 
-* This package has zero dependencies.
-
-### Installing
-
-<<<<<<< HEAD
-* npm i v-form-erializer.
-=======
-```
+```bash
 npm i v-form-serializer
 ```
->>>>>>> 3e5deddc77ded7534219bb19cdd9f42242964941
 
-### Usage
+## Usage
 
 If your your form is...
 ```html
@@ -42,11 +22,7 @@ If your your form is...
 
 Then in JS...
 ```js
-<<<<<<< HEAD
-    import FormSerializer from "Serializer"
-=======
     import FormSerializer from "v-form-serializer"
->>>>>>> 3e5deddc77ded7534219bb19cdd9f42242964941
 
     const form = document.getElementById("my-form")
     const fields = ["name", "email"]
@@ -55,8 +31,14 @@ Then in JS...
         form,
         fieldNames: fields
     })
+
+    console.log(formData) // {fieldname: fieldvalue}
 ```
 
-## Help
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-If you need any help, please contact prodbyola@gmail.com or 35geniusofficial@gmail.com
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
