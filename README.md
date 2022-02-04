@@ -4,7 +4,7 @@ Looking for a way to serialize your form data without jquery on any external plu
 
 ## Installation
 
-Use the node package manager [npm](https://pip.pypa.io/en/stable/) to install.
+Use the node package manager [npm](https://www.npmjs.com/package/v-form-serializer) to install.
 
 ```bash
 npm i v-form-serializer
